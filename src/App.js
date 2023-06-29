@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Counter from "./Counter";
+import TimerWrapper from "./TimerWrapper";
+import "./App.css";
+import Timer from "./Timer";
+import ProfileViewer from "./ProfileViewer";
+import ProfileViewerWithSearch from "./ProfileViewerWithSearch";
+import Video from "./Video";
+import Focuser from "./Focuser";
+import Deck from "./Deck";
+import DeckDeal from "./DeckDeal";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DeckDeal />
     </div>
   );
 }
